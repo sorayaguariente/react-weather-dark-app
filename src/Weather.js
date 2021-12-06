@@ -4,18 +4,32 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <form>
-        <input
-          type="search"
-          placeholder="Enter a city"
-          className="citySearch"
-        />
-        <input type="submit" value="Search" className="search btn-primary" />
-      </form>
-      <span>
-        {" "}
-        Or use <a href="/">your current location </a>{" "}
-      </span>
+      <div className="container">
+        <div className="row">
+          <div className="col-7">
+            <form>
+              <input
+                type="search"
+                placeholder="Enter a city"
+                className="citySearch"
+                autoFocus="on"
+              />
+              <input
+                type="submit"
+                value="Search"
+                className="search btn-primary"
+              />
+            </form>
+          </div>
+          <div className="col-5">
+            <span className="locationLink">
+              {" "}
+              Or use <a href="/">your current location </a>{" "}
+            </span>
+          </div>
+        </div>
+      </div>
+
       <div className="cityName">London</div>
       <div className="cityWeatherData container">
         <div className="row">
@@ -24,7 +38,7 @@ export default function Weather() {
             <br />
             <div className="currentDescription">Broken clouds</div>
             <div className="currentHumidity">Humidity: 92%</div>
-            <div className="currentWind">Wind:0 km/h</div>
+            <div className="currentWind">Wind: 0km/h</div>
           </div>
           <div className="col-2">
             <img
@@ -32,7 +46,10 @@ export default function Weather() {
               alt="Broken clouds"
             />
           </div>
-          <div className="col-5 currentTemperature">7°C</div>
+          <div className="col-5">
+            <span className="currentTemperature">7 </span>{" "}
+            <span classname="celsiusUnit">°C</span>
+          </div>
         </div>
       </div>
     </div>

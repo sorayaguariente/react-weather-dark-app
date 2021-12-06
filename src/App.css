@@ -1,0 +1,14 @@
+.App {
+  background: #525151;
+  color: #f4f4f4;
+  font-family: "Roboto Slab", serif;
+  padding: 50px;
+}
+.App a {
+  color: #bb3eec;
+}
+.App footer {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}

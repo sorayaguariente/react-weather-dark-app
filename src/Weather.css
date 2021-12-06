@@ -1,6 +1,79 @@
 .Weather {
-  border: 1px solid black;
+  background-color: #333333;
+  border: 1px solid #dadada;
+  border-radius: 18px;
+  box-shadow: 5px 10px 20px rgb(65 55 100/ 15%);
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 40px;
+}
+.Weather .citySearch {
+  margin-right: 5px;
+  padding: 3px 15px;
+  background-color: #f4f4f4;
+  color: #333333;
 }
 .Weather img {
-  max-width: 80px;
+  margin: 15px 0 0 5px;
+  width: 130px;
+  height: auto;
+}
+.Weather .cityName {
+  padding-left: 12px;
+  color: #cf1e65;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.Weather .btn-primary {
+  background-color: #f20061;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px #e64c8a;
+  margin-right: 20px;
+  padding: 5px 10px;
+  transition: all 200ms ease-in-out;
+}
+.Weather .btn-primary:hover {
+  background-color: #e64c8a;
+}
+.Weather a {
+  color: #bb3eec;
+  font-weight: bold;
+}
+.Weather .locationLink {
+  color: #f4f4f4;
+}
+.Weather .currentTime {
+  color: #cf1e65;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Weather .currentDescription:first-letter {
+  text-transform: capitalize;
+}
+.Weather .currentDescription,
+.currentHumidity,
+.currentWind,
+.locationLink {
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Weather .celsiusUnit {
+  font-size: 18px;
+  padding: 15px 0;
+  position: relative;
+  text-align: start;
+  line-height: 1;
+  top: -25px;
+  vertical-align: text-top;
+}
+.Weather .currentTemperature {
+  color: #f20061;
+  font-size: 120px;
+  font-weight: 900;
+  margin: -15px -30px 0 40px;
+  line-height: normal;
 }

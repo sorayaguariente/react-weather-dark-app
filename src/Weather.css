@@ -1,0 +1,6 @@
+.Weather {
+  border: 1px solid black;
+}
+.Weather img {
+  max-width: 80px;
+}

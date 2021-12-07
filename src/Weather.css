@@ -61,19 +61,18 @@
   font-size: 18px;
   font-weight: 400;
 }
-.Weather .celsiusUnit {
+.Weather .unit {
   font-size: 18px;
   padding: 15px 0;
   position: relative;
   text-align: start;
   line-height: 1;
-  top: -25px;
-  vertical-align: text-top;
+  top: -68px;
 }
 .Weather .currentTemperature {
   color: #f20061;
   font-size: 120px;
   font-weight: 900;
-  margin: -15px -30px 0 40px;
+  margin: -15px 4px 0 40px;
   line-height: normal;
 }

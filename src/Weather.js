@@ -14,7 +14,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
-      icon: "https://trusting-brown-57e448.netlify.app/images/04d.png",
+      icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
       city: response.data.name,
       country: response.data.sys.country,

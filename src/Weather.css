@@ -14,8 +14,8 @@
   color: #333333;
 }
 .Weather canvas {
-  margin: 15px 0 0 5px;
-  padding: 0 120px 0 0;
+  margin: 15px 0 0 0;
+
   height: auto;
 }
 .Weather .cityName {

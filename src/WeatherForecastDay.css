@@ -1,0 +1,8 @@
+.WeatherForecastDay .row {
+  border: 1px solid #f4f4f4;
+  border-radius: 20px;
+}
+.WeatherForecastDay-temps {
+  font-size: 14px;
+  margin-right: 5px;
+}

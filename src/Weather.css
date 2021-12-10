@@ -76,3 +76,21 @@
   margin: -15px 4px 0 40px;
   line-height: normal;
 }
+
+@media (max-width: 576px) {
+  .Weather {
+    margin: 0;
+    padding: 5px;
+  }
+  .Weather canvas {
+    max-width: 40%;
+  }
+  .Weather .cityName {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .Weather .currentTemperature {
+    font-size: 32px;
+    margin: 10px;
+  }
+}

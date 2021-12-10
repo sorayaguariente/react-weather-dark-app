@@ -25,8 +25,8 @@ export default function WeatherInfos(props) {
               Wind: {Math.round(props.data.wind)}km/h
             </div>
           </div>
-          <div className="col-2 float-left">
-            <WeatherIcon code={props.data.icon} size={164} />
+          <div className="col-3 float-left">
+            <WeatherIcon code={props.data.icon} size={150} />
           </div>
           <div className="col-5">
             <WeatherTemperature celsius={props.data.temperature} />

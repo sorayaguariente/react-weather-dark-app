@@ -12,7 +12,7 @@ export default function WeatherInfos(props) {
       </div>
       <div className="cityprops.data container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-md-4">
             <div className="currentTime">
               <FormattedDate date={props.data.date} />
             </div>
@@ -25,10 +25,10 @@ export default function WeatherInfos(props) {
               Wind: {Math.round(props.data.wind)}km/h
             </div>
           </div>
-          <div className="col-3 float-left">
+          <div className="col-md-3 col-5 float-left">
             <WeatherIcon code={props.data.icon} size={150} />
           </div>
-          <div className="col-5">
+          <div className="col-md-5 col-7">
             <WeatherTemperature celsius={props.data.temperature} />
           </div>
         </div>

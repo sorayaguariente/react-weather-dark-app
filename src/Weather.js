@@ -35,32 +35,16 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <div className="container">
-          <div className="row">
-            <div className="col-7">
-              <form onSubmit={handleSubmit}>
-                <input
-                  type="search"
-                  onChange={handleCityChange}
-                  placeholder="Enter a city"
-                  className="citySearch"
-                  autoFocus="on"
-                />
-                <input
-                  type="submit"
-                  value="Search"
-                  className="search btn-primary"
-                />
-              </form>
-            </div>
-            <div className="col-5">
-              <span className="locationLink">
-                {" "}
-                Or use <a href="/">your current location </a>{" "}
-              </span>
-            </div>
-          </div>
-        </div>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="search"
+            onChange={handleCityChange}
+            placeholder="Enter a city"
+            className="citySearch"
+            autoFocus="on"
+          />
+          <input type="submit" value="Search" className="search btn-primary" />
+        </form>
         <WeatherInfos data={weatherData} />
       </div>
     );

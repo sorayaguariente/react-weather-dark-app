@@ -6,3 +6,9 @@
   font-size: 14px;
   margin-right: 5px;
 }
+
+@media (max-width: 576px) {
+  .WeatherForecastDay {
+    margin-top: 12px;
+  }
+}

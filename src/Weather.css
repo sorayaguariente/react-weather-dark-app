@@ -82,15 +82,27 @@
     margin: 0;
     padding: 5px;
   }
+  .Weather form {
+    margin: 12px 0;
+    text-align: center;
+    padding: 10px;
+  }
+  .Weather .search {
+    margin: 5px;
+  }
   .Weather canvas {
-    max-width: 40%;
+    max-width: 60%;
   }
   .Weather .cityName {
-    font-size: 30px;
+    font-size: 42px;
     margin-top: 5px;
   }
   .Weather .currentTemperature {
-    font-size: 32px;
+    font-size: 68px;
     margin: 10px;
+  }
+  .Weather .unit {
+    font-size: 14px;
+    top: -40px;
   }
 }
